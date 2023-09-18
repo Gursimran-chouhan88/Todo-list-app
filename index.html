@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is todo list app, for manage your Daily routine tasks">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Gursimran Chouhan">
+
+    <!-- Link main CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Todo List App</title>
+</head>
+
+<!-- body -->
+
+<body>
+    <!-- this is main Div container -->
+    <div class="container">
+
+        <!-- This Div contains the logo,title,input-box and List of task -->
+        <div class="todo-app">
+            <!-- this is title and logo -->
+            <h2>Todo List App<img src="static/icons8-list-64.png" alt="list icon"></h2>
+            <!-- this Div for input-section -->
+            <div class="input-section">
+                <input type="text" id="input-box" placeholder="type your todo list">
+                <button onclick="addTask()">+</button>
+            </div>
+            <!-- This ul contains  the list of tasks  -->
+            <ul id="list-container">
+                <!-- <li class="check">Task one</li>
+                 <li>Task two</li> -->
+            </ul>
+            <br>
+            <!-- horizontal line -->
+            <hr>
+            <!-- this p tag for show task left -->
+            <p id="task-count">Tasks left: 0</p>
+
+
+        </div>
+
+    </div>
+    <!-- Link main javascript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
