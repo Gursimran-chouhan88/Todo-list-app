@@ -11,39 +11,74 @@
     <!-- Link main CSS file -->
     <link rel="stylesheet" href="style.css">
 
+    <!--  FONTAWESOME KIT -->
+    <script src="https://kit.fontawesome.com/0ba4f5c443.js" crossorigin="anonymous"></script>
+
+
     <title>Todo List App</title>
 </head>
 
 <!-- body -->
 
 <body>
-    <!-- this is main Div container -->
-    <div class="container">
 
-        <!-- This Div contains the logo,title,input-box and List of task -->
-        <div class="todo-app">
-            <!-- this is title and logo -->
-            <h2>Todo List App<img src="static/icons8-list-64.png" alt="list icon"></h2>
-            <!-- this Div for input-section -->
-            <div class="input-section">
-                <input type="text" id="input-box" placeholder="type your todo list">
-                <button onclick="addTask()">+</button>
+    <header>
+        <!-- nav bar -->
+        <nav>
+            <!-- This Div contains the logo and titles of page -->
+            <div class="title-combo">
+                <div class="website-logo">
+                    <img src="static/profile_picture.jpg" alt="logo">
+                </div>
+                <div class="website-name">
+                    <h4>Gursimran</h4>
+                    <h6>To-do list</h6>
+                </div>
             </div>
-            <!-- This ul contains  the list of tasks  -->
-            <ul id="list-container">
-                <!-- <li class="check">Task one</li>
+
+            <!-- This div contain links  -->
+            <div class="dropdown">
+                <h3 id="contacts">CONTACT US</h3>
+                <div class="dropdown-options">
+                    <a href="https://www.instagram.com/i_gursimran_chouhan/"><i class="fa-brands fa-instagram"
+                            style="color: #000000;  "></i>Instagram</a>
+                    <a href="https://www.facebook.com/chouhan.maansaab"><i class="fa-brands fa-facebook"
+                            style="color: #2d5eb4; "></i>Facebook</a>
+                    <a href="https://github.com/Gursimran-chouhan88"><i class="fa-brands fa-github"
+                            style="color: #000000;"></i>Github</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- this is main Div container -->
+        <div class="container">
+
+            <!-- This Div contains the logo,title,input-box and List of task -->
+            <div class="todo-app">
+                <!-- this is title and logo -->
+                <h2>Todo List App<img src="static/icons8-list-64.png" alt="list icon"></h2>
+                <!-- this Div for input-section -->
+                <div class="input-section">
+                    <input type="text" id="input-box" placeholder="type your todo list">
+                    <button onclick="addTask()">+</button>
+                </div>
+                <!-- This ul list container contains  the list of tasks  -->
+                <ul id="list-container">
+                    <!-- <li class="check">Task one</li>
                  <li>Task two</li> -->
-            </ul>
-            <br>
-            <!-- horizontal line -->
-            <hr>
-            <!-- this p tag for show task left -->
-            <p id="task-count">Tasks left: 0</p>
-
-
+                </ul>
+                <br>
+                <!-- horizontal line -->
+                <hr>
+                <!-- this p tag for show task left -->
+                <p id="task-count">Tasks left: 0</p>
+            </div>
         </div>
+    </main>
 
-    </div>
+
     <!-- Link main javascript file -->
     <script src="script.js"></script>
 </body>
