@@ -1,5 +1,5 @@
 # Todo-list-app
-This is todo list app, for manage your Daily routine tasks,Create a simple Todo list with vanilla JS (as you see in the GIF below). Vanilla JS means no
+This is todo list app, for manage your Daily routine tasks,Create a simple Todo list with vanilla JS (as you see in the GITHUB PAGES). Vanilla JS means no
 plugins, no libraries, nothing.
 <br>
 <h3>Features </h3>
