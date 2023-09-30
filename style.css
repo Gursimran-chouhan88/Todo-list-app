@@ -7,6 +7,93 @@
 
  }
 
+
+ /* navbar styling and formating  */
+ header nav {
+     background-color: rgb(25, 154, 240);
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: auto;
+     width: 100%;
+
+ }
+
+ /* webside logo  */
+ .website-logo img {
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+ }
+
+
+ /* Website  name */
+
+ .website-name h4 {
+     color: rgb(196, 18, 48);
+ }
+
+ /* Website title and general discription */
+
+ .title-combo>div {
+     vertical-align: middle;
+     display: inline-block;
+ }
+
+ /* contaxt us heading */
+ #contacts {
+     cursor: pointer;
+ }
+
+ #contacts:hover {
+     color: #ddd;
+ }
+
+ /* contacts dropdown formating */
+ .dropdown {
+     display: inline-block;
+     position: relative;
+ }
+
+ /* contacts dropdown formating and stylings */
+ .dropdown-options {
+     display: none;
+     position: absolute;
+     overflow: auto;
+     background-color: #fff;
+     border-radius: 5px;
+     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4);
+ }
+
+ /* contacts dropdown display hover */
+ .dropdown:hover .dropdown-options {
+     display: block;
+ }
+
+ .dropdown-options a {
+     display: block;
+     color: #000000;
+     padding: 5px;
+     text-decoration: none;
+     padding: 20px 30px;
+ }
+
+ /* contacts dropdown  stylings */
+ .dropdown-options a:hover {
+     color: #0a0a23;
+     background-color: #ddd;
+     border-radius: 5px;
+ }
+
+ /* contacts dropdown  icons stylings */
+ .dropdown-options a i {
+     display: inline;
+     margin-right: 8px;
+ }
+
+
+ /* ******************************************************************main section****************************************************************** */
  /* This Main Div Container formating */
  .container {
      width: 100%;
@@ -40,7 +127,7 @@
      margin-left: 10px;
  }
 
- /* this is for input formating */
+ /* this is for input box Styling */
  .input-section {
      display: flex;
      align-items: center;
@@ -83,7 +170,7 @@
      position: relative;
  }
 
- /* this for show list not done icon mark style */
+ /* this for show list not done  styling */
  ul li::before {
      content: '';
      position: absolute;
@@ -108,13 +195,13 @@
  }
 
 
- /* this is for show list text done mark styling */
+ /* this  for  list text done mark styling */
  ul li.check {
      color: #555;
      text-decoration: line-through;
  }
 
- /* this is for show list  done icon mark style */
+ /* this for show list  done icon mark styling */
  ul li.check::before {
      background-image: url(static/checked.png);
  }
@@ -133,7 +220,7 @@
      border-radius: 50%;
  }
 
- /* this is for  task Remove icon Mouse Hover */
+ /*  task Remove btn Mouse Hover */
  ul li span:hover {
      background: rgb(228, 109, 109);
  }
